@@ -165,8 +165,8 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Email Us</h3>
-                        <p className="text-sm text-muted-foreground">info@aspireinternational.com</p>
-                        <p className="text-sm text-muted-foreground">careers@aspireinternational.com</p>
+                        <p className="text-sm text-muted-foreground">contact@aspireinternationalorg.com</p>
+                       
                       </div>
                     </div>
                   </CardContent>
@@ -180,7 +180,8 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Call Us</h3>
-                        <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
+                        <p className="text-sm text-muted-foreground">+91 9152820296</p>
+                        <p className="text-sm text-muted-foreground">+91 9004734199</p>
                         <p className="text-sm text-muted-foreground">Mon-Fri, 9:00 AM - 6:00 PM EST</p>
                       </div>
                     </div>
@@ -196,11 +197,11 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold mb-1">Visit Us</h3>
                         <p className="text-sm text-muted-foreground">
-                          123 Business Plaza, Suite 100
+                          Solaris 1 Saki Vihar Road
                           <br />
-                          New York, NY 10001
+                          Mumbai 400072
                           <br />
-                          United States
+                          India
                         </p>
                       </div>
                     </div>

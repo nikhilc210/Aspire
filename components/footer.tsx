@@ -84,18 +84,23 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-primary-foreground/80">
               <li className="flex items-start gap-2">
                 <Mail size={16} className="mt-1 flex-shrink-0" />
-                <span>info@aspireinternational.com</span>
+                <span>contact@aspireinternationalorg.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <Phone size={16} className="mt-1 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 9152820296</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <Phone size={16} className="mt-1 flex-shrink-0" />
+                <span>+91 9004734199</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="mt-1 flex-shrink-0" />
                 <span>
-                  123 Business Plaza, Suite 100
+                  Solaris 1 Saki Vihar Road
+
                   <br />
-                  New York, NY 10001
+                  Mumbai 400072
                 </span>
               </li>
             </ul>
