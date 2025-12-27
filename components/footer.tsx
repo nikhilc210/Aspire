@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Mail, Phone, MapPin, Linkedin, Twitter } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -9,10 +10,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary-foreground rounded-md flex items-center justify-center">
-                <span className="text-primary font-bold text-lg">A</span>
-              </div>
-              <span className="font-serif font-semibold text-lg">Aspire International</span>
+              <Image
+                  src="/logo.png"
+                  alt="logo"
+                  width={240}
+                  height={80}
+                  priority
+                />
+
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">
               Empowering organizations through people excellence. Your trusted partner for HR solutions.

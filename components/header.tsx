@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -27,10 +28,13 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center space-x-2">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">A</span>
-              </div>
-              <span className="font-serif font-semibold text-lg lg:text-xl text-foreground">Aspire International</span>
+              <Image
+                                src="/logo.png"
+                                alt="logo"
+                                width={240}
+                                height={80}
+                                priority
+                              />
             </div>
           </Link>
 
